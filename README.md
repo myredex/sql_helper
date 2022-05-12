@@ -8,6 +8,7 @@ SELECT * FROM table_name; | select all data in the table
 SELECT column_1, column_2 FROM table_name; | select two columns from the table
 SELECT column_1, column_2 FROM table_name WHERE condition_is; | select only those rows from the table which is compatible with condition
 SELECT column_1, column_2 FROM table_name WHERE any_column LIKE '%Elinoice%'; | We have two columns and choose all the rows in which field ADDRESS contains **Elincoice**
+SELECT column_1_1 FROM table_1 WHERE column_1_2 IN (SELECT column_2_1 FROM table_2 WHERE column_2_2='ABC') | We have depency between two tables and show data from first depending of the result of the query from the second table 
 
 ## Where variants
 
