@@ -46,5 +46,15 @@ Freeqently used functions.
 
 SQL query  | Example | What it does 
 ------------- | ------------- | -------------
+AVG() | SELECT AVG(column_1) FROM table_1; | Average value
+DISTINCT() | SELECT DISTINCT(column_1) from table_1; | Only unique values
+DAY() | SELECT DAY(column_1) from table_1; | Returns day of the month from the date
+LENTH() | SELECT LENGTH(column_1) from table_1; | Lenth of the value
+LCASE() | SELECT LCASE(column_1) from table_1; | Shows results in lowercase
+MAX() | SELECT MAX(column_1) FROM table_1; | Extract maximum value of the column
+MONTH() | SELECT MONTH(column_1) from table_1; | Returns month from the date
+ROUND() | SELECT ROUND(column_1) from table_1; | Round values
+SUM() | SELECT SUM(column_1) from table_1; | Aggregates all the data in column
 TIMEDIFF() | SELECT TIMEDIFF(end_date, start_date); | It counts time between two dates 
+UCASE() | SELECT UCASE(column_1) from table_1; | Shows results in uppercase
 
